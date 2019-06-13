@@ -1,0 +1,85 @@
+table{
+	border: 5px solid #17106F;
+	height: 1300px;
+	width: 50%;
+	border-radius: 4px;
+	box-shadow: 5px 5px 3px 3px #AB34QR;
+	
+}
+td{
+	background: #000000;
+	font-family: Comic sans ms;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+input[type=text]{
+		outline: none;
+		height: 20px;
+		width: 230px;
+		font-size: 15px;
+		border: 3px solid #458A1A;
+		border-radius: 5px;
+		border-color: #0D7BA3;
+		color: #000000;
+		box-shadow: 0px 0px 5px #0000;
+		}
+input[type=number]{
+		outline: none;
+		height: 25px;
+		width: 200px;
+		font-size: 20px;
+		border: 5px solid #458A1A;
+		border-radius: 5px;
+		border-color: #0D7BA3;
+		color: #F119F6;
+		box-shadow: 0px 0px 5px #0000;
+		}
+input[type=date]{
+		outline: none;
+		height: 20px;
+		width: 200px;
+		font-size: 15px;
+		border: 3px solid #458A1A;
+		border-radius: 5px;
+		border-color: #0D7BA3;
+		color: #000000;
+		box-shadow: 0px 0px 5px #0000;
+		}
+		
+input[type=text]:hover
+		{
+			background: #E3D5D5;
+		}
+		
+input[type=number]:hover
+		{
+			background-color: #E3D5D5;
+		}
+.submit{
+	background: #40475F;
+	height: 30px;
+	width: 25%;
+	border-radius: 40px;
+	outline: none;
+	text-decoration: none;
+	font-weight: bold;
+}
+.submit:active{
+	background: #142AAF;
+}
+.submit:hover{
+	background: #AF8283;
+	cursor: pointer;
+}
+.button{
+	height: 30px;
+	width: 25%;
+	border-radius: 20px;
+	outline: none;
+	font-weight: bold;
+}
+
+.button:hover{
+	background: #AF8283;
+	cursor: pointer;
+}
